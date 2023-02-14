@@ -3,11 +3,11 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       https://https://github.com/abrahamicm
+ * @link       https://https://github.com/abrahamicm/
  * @since      1.0.0
  *
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/includes
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/includes
  */
 
 /**
@@ -17,11 +17,11 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/includes
- * @author     abraham cordero <abrahamicm2@gmail.com>
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/includes
+ * @author     Abraham Cordero <abrahamicm2@gmail.com>
  */
-class Ab_Wp_Debug_Loader {
+class Abe_Framework_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.

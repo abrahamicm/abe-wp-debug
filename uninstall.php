@@ -19,10 +19,10 @@
  * For more information, see the following discussion:
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
- * @link       https://https://github.com/abrahamicm
+ * @link       https://https://github.com/abrahamicm/
  * @since      1.0.0
  *
- * @package    Ab_Wp_Debug
+ * @package    Abe_Framework
  */
 
 // If uninstall not called from WordPress, then exit.

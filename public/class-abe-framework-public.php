@@ -1,26 +1,26 @@
 <?php
 
 /**
- * The admin-specific functionality of the plugin.
+ * The public-facing functionality of the plugin.
  *
- * @link       https://https://github.com/abrahamicm
+ * @link       https://https://github.com/abrahamicm/
  * @since      1.0.0
  *
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/admin
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/public
  */
 
 /**
- * The admin-specific functionality of the plugin.
+ * The public-facing functionality of the plugin.
  *
  * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the admin-specific stylesheet and JavaScript.
+ * enqueue the public-facing stylesheet and JavaScript.
  *
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/admin
- * @author     abraham cordero <abrahamicm2@gmail.com>
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/public
+ * @author     Abraham Cordero <abrahamicm2@gmail.com>
  */
-class Ab_Wp_Debug_Admin {
+class Abe_Framework_Public {
 
 	/**
 	 * The ID of this plugin.
@@ -44,7 +44,7 @@ class Ab_Wp_Debug_Admin {
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    1.0.0
-	 * @param      string    $plugin_name       The name of this plugin.
+	 * @param      string    $plugin_name       The name of the plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
@@ -55,7 +55,7 @@ class Ab_Wp_Debug_Admin {
 	}
 
 	/**
-	 * Register the stylesheets for the admin area.
+	 * Register the stylesheets for the public-facing side of the site.
 	 *
 	 * @since    1.0.0
 	 */
@@ -65,20 +65,20 @@ class Ab_Wp_Debug_Admin {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in Ab_Wp_Debug_Loader as all of the hooks are defined
+		 * defined in Abe_Framework_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The Ab_Wp_Debug_Loader will then create the relationship
+		 * The Abe_Framework_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/ab-wp-debug-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/abe-framework-public.css', array(), $this->version, 'all' );
 
 	}
 
 	/**
-	 * Register the JavaScript for the admin area.
+	 * Register the JavaScript for the public-facing side of the site.
 	 *
 	 * @since    1.0.0
 	 */
@@ -88,15 +88,15 @@ class Ab_Wp_Debug_Admin {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in Ab_Wp_Debug_Loader as all of the hooks are defined
+		 * defined in Abe_Framework_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The Ab_Wp_Debug_Loader will then create the relationship
+		 * The Abe_Framework_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/ab-wp-debug-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/abe-framework-public.js', array( 'jquery' ), $this->version, false );
 
 	}
 

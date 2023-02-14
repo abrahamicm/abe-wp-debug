@@ -5,11 +5,11 @@
  *
  * This file is used to markup the public-facing aspects of the plugin.
  *
- * @link       https://https://github.com/abrahamicm
+ * @link       https://https://github.com/abrahamicm/
  * @since      1.0.0
  *
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/public/partials
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/public/partials
  */
 ?>
 

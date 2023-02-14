@@ -3,11 +3,11 @@
 /**
  * Fired during plugin activation
  *
- * @link       https://https://github.com/abrahamicm
+ * @link       https://https://github.com/abrahamicm/
  * @since      1.0.0
  *
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/includes
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's activation.
  *
  * @since      1.0.0
- * @package    Ab_Wp_Debug
- * @subpackage Ab_Wp_Debug/includes
- * @author     abraham cordero <abrahamicm2@gmail.com>
+ * @package    Abe_Framework
+ * @subpackage Abe_Framework/includes
+ * @author     Abraham Cordero <abrahamicm2@gmail.com>
  */
-class Ab_Wp_Debug_Activator {
+class Abe_Framework_Activator {
 
 	/**
 	 * Short Description. (use period)
